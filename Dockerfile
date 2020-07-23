@@ -1,5 +1,3 @@
-FROM prakash01/apache-webserver-php
-
-CMD rm -rvf /var/www/html/*
+FROM vimal13/apache-webserver-php
 
 COPY index.html /var/www/html
